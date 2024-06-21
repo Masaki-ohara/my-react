@@ -21,6 +21,10 @@ import EventObj from './chap03/EventObj';
 import EventPoint from './chap03/EventPoint';
 import EventKey from './chap03/EventKey';
 import EventArgs from './chap03/EventArg';
+import EventArgs2 from './chap03/EventArgs2';
+import EventPropagation from './chap03/EventPropagation';
+import EventOnce from './chap03/EventOnce';
+import EventPassive from './chap03/EventPassive';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -65,6 +69,10 @@ root.render(
       <EventPoint />
       <EventKey />
       <EventArgs />
+      <EventArgs2 />
+      <EventPropagation />
+      <EventOnce />
+      <EventPassive />
   </>
 );
 
