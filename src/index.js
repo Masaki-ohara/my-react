@@ -25,6 +25,8 @@ import EventArgs2 from './chap03/EventArgs2';
 import EventPropagation from './chap03/EventPropagation';
 import EventOnce from './chap03/EventOnce';
 import EventPassive from './chap03/EventPassive';
+import StateForm from './chap04/StateForm';
+import StateFormUC from './chap04/StateFormUC';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -73,6 +75,8 @@ root.render(
       <EventPropagation />
       <EventOnce />
       <EventPassive />
+      <StateForm />
+      <StateForm />
   </>
 );
 
