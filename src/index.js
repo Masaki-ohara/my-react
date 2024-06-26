@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -27,6 +28,13 @@ import EventOnce from './chap03/EventOnce';
 import EventPassive from './chap03/EventPassive';
 import StateForm from './chap04/StateForm';
 import StateFormUC from './chap04/StateFormUC';
+import FormTextarea from './chap04/FormTextarea';
+import FormSelect from './chap04/Form.select';
+import FormList from './chap04/FormList';
+import FormRadio from './chap04/FormRadio';
+import FormCheck from './chap04/FormCheck';
+import FormCheckMulti from './chap04/FormCheckMulti';
+import FormFile from './chap04/Form.File';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -76,7 +84,14 @@ root.render(
       <EventOnce />
       <EventPassive />
       <StateForm />
-      <StateForm />
+      <StateFormUC />
+      <FormTextarea />
+      <FormSelect />
+      <FormList />
+      <FormRadio />
+      <FormCheck />
+      <FormCheckMulti />
+      <FormFile />
   </>
 );
 
