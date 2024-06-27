@@ -35,6 +35,10 @@ import FormRadio from './chap04/FormRadio';
 import FormCheck from './chap04/FormCheck';
 import FormCheckMulti from './chap04/FormCheckMulti';
 import FormFile from './chap04/Form.File';
+import StateNest from './chap04/StateNest';
+import StateNestImmer from './chap04/StateNestImmer';
+import StateNestImmer2 from './chap04/StateNestImmer2';
+import StateTodo from './chap04/StateTodo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -92,6 +96,10 @@ root.render(
       <FormCheck />
       <FormCheckMulti />
       <FormFile />
+      <StateNest />
+      <StateNestImmer />
+      <StateNestImmer2 />
+      <StateTodo />
   </>
 );
 
