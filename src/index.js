@@ -39,6 +39,8 @@ import StateNest from './chap04/StateNest';
 import StateNestImmer from './chap04/StateNestImmer';
 import StateNestImmer2 from './chap04/StateNestImmer2';
 import StateTodo from './chap04/StateTodo';
+import FormBasic from './chap04/FormBasic';
+import FormYup from './chap04/FormYup';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -100,6 +102,8 @@ root.render(
       <StateNestImmer />
       <StateNestImmer2 />
       <StateTodo />
+      <FormBasic />
+      <FormYup />
   </>
 );
 
