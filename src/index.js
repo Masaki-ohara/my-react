@@ -41,6 +41,7 @@ import StateNestImmer2 from './chap04/StateNestImmer2';
 import StateTodo from './chap04/StateTodo';
 import FormBasic from './chap04/FormBasic';
 import FormYup from './chap04/FormYup';
+import FormJapan from './chap04/FormJapan';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -104,6 +105,7 @@ root.render(
       <StateTodo />
       <FormBasic />
       <FormYup />
+      <FormJapan />
   </>
 );
 
