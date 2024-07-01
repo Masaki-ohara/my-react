@@ -1,7 +1,6 @@
 import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
-import yup from './yup.jp.js'; // assuming this is your localized yup instance
-
+import { yupResolver } from '@hookform/resolvers/yup'
+import yup from './yup.jp.js';
 
 const schema = yup.object({
     name: yup
