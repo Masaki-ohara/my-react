@@ -42,6 +42,24 @@ import StateTodo from './chap04/StateTodo';
 import FormBasic from './chap04/FormBasic';
 import FormYup from './chap04/FormYup';
 import FormJapan from './chap04/FormJapan';
+import LazyBasic from './chap05/LazyBasic';
+import LazyMulti from './chap05/LazyMulti'
+import SuspenseSimple from './chap05/SuspenseSimple';
+import SuspenseResult from './chap05/SuspenseResult';
+import ProfilerBasic from './chap05/ProfilerBasic';
+import StyleBasic from './chap05/StyleBasic';
+import StyledCss from './chap05/StyledCss';
+import StyledDynamic from './chap05/StyledDynamic';
+import StyledComp from './chap05/StyledComp';
+import { MyButton, MyStyledButton } from './chap05/StyledComp2';
+import StyledCommon from './chap05/StyledCommon';
+import StyledProps from './chap05/StyyledProps';
+import EmotionJsx from './chap05/Emotionjsx';
+import EmotionComp from './chap05/EmotionComp';
+import PortalBasic from './chap05/PortalBasic';
+import ErrorRoot from './chap05/ErrorRoot';
+import ErrorRetryRoot from './chap05/ErrorRetryRoot';
+import ErrorEventRoot from './chap05/ErrorEventRoot';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -106,6 +124,30 @@ root.render(
       <FormBasic />
       <FormYup />
       <FormJapan />
+      <LazyBasic />
+      <LazyMulti />
+      <SuspenseSimple />
+      <SuspenseResult />
+      <ProfilerBasic />
+      <StyleBasic />
+      <h3>Styled JSXの部品化</h3>
+      <StyledCss />
+      <StyledDynamic theme={{
+        radius: true,
+        color: 'royalblue'
+      }} />
+      <StyledComp />
+      <MyButton>ボタン</MyButton>
+      <MyStyledButton>ボタン</MyStyledButton>
+      <StyledCommon />
+      <StyledProps />
+      <EmotionJsx />
+      <EmotionComp />
+      <div id="dialog"></div>
+      <PortalBasic />
+      <ErrorRoot />
+      <ErrorRetryRoot />
+      <ErrorEventRoot />
   </>
 );
 
