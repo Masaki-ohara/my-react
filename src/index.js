@@ -60,6 +60,12 @@ import PortalBasic from './chap05/PortalBasic';
 import ErrorRoot from './chap05/ErrorRoot';
 import ErrorRetryRoot from './chap05/ErrorRetryRoot';
 import ErrorEventRoot from './chap05/ErrorEventRoot';
+import MaterialBasic from './chap06/MaterialBasic';
+import MaterialDrawer from './chap06/MaterialDrawer';
+import MaterialGrid from './chap06/MaterialGrid';
+import { CssBaseline, ScopedCssBaseline, ThemeProvider } from '@mui/material';
+import theme from './chap06/theme';
+import MaterialMode from './chap06/MaterialMode';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -148,6 +154,17 @@ root.render(
       <ErrorRoot />
       <ErrorRetryRoot />
       <ErrorEventRoot />
+      <br />
+      <MaterialBasic />
+      <br />
+      <MaterialDrawer />
+      <MaterialGrid  />
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <MaterialBasic />
+      </ThemeProvider>
+      <br />
+      <MaterialMode />
   </>
 );
 
