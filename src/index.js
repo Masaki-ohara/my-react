@@ -66,6 +66,7 @@ import MaterialGrid from './chap06/MaterialGrid';
 import { CssBaseline, ScopedCssBaseline, ThemeProvider } from '@mui/material';
 import theme from './chap06/theme';
 import MaterialMode from './chap06/MaterialMode';
+import FormMui from './chap06/FormMui';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -165,6 +166,7 @@ root.render(
       </ThemeProvider>
       <br />
       <MaterialMode />
+      <FormMui />
   </>
 );
 
