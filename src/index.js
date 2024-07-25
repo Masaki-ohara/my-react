@@ -67,6 +67,12 @@ import { CssBaseline, ScopedCssBaseline, ThemeProvider } from '@mui/material';
 import theme from './chap06/theme';
 import MaterialMode from './chap06/MaterialMode';
 import FormMui from './chap06/FormMui';
+import StateEffect from './chap07/StateEffect';
+import HookTimer from './chap07/HookTimer';
+import HookRefNg from './chap07/HookRefNg';
+import HookRef from './chap07/HookRef';
+import HookRefForward from './chap07/HookRefForward';
+import HookCallbackRef from './chap07/HookCallbackRef';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -167,6 +173,12 @@ root.render(
       <br />
       <MaterialMode />
       <FormMui />
+      <StateEffect init={0}/>
+      <HookTimer init={10}/>
+      <HookRefNg />
+      <HookRef />
+      <HookRefForward />
+      <HookCallbackRef />
   </>
 );
 
