@@ -73,6 +73,7 @@ import HookRefNg from './chap07/HookRefNg';
 import HookRef from './chap07/HookRef';
 import HookRefForward from './chap07/HookRefForward';
 import HookCallbackRef from './chap07/HookCallbackRef';
+import HookReducer from './chap07/HookReducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -179,6 +180,7 @@ root.render(
       <HookRef />
       <HookRefForward />
       <HookCallbackRef />
+      <HookReducer init={0} />
   </>
 );
 
