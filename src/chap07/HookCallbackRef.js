@@ -9,7 +9,7 @@ export default function HookCallbackRef() {
     // ボタンクリックで表示/非表示を反転させるハンドラー
     const handleClick = () => setShow(!show);
 
-    // [住所]欄が表示されたときにフォーカスを当てる
+    // [住所]欄が表示され、たときにフォーカスを当てる
     useEffect(() => {
         if (address.current) {
             address.current.focus(); // 住所入力欄が存在する場合、フォーカスを当てる
