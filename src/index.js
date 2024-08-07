@@ -76,6 +76,9 @@ import HookCallbackRef from './chap07/HookCallbackRef';
 import HookReducer from './chap07/HookReducer';
 import HookReducerUp from './chap07/HookReducerUp';
 import HookReducerInit from './chap07/HookReducerInit';
+import HookContext from './chap07/HookContext';
+import MyThemeProvider from './chap07/ MyThemeProvider';
+import HookThemeButton from './chap07/HookThemeButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -185,6 +188,10 @@ root.render(
       <HookReducer init={0} />
       <HookReducerUp init={0} />
       <HookReducerInit init={0} />
+      <HookContext />
+      <MyThemeProvider>
+        <HookThemeButton />
+      </MyThemeProvider>
   </>
 );
 
