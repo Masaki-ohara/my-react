@@ -79,6 +79,10 @@ import HookReducerInit from './chap07/HookReducerInit';
 import HookContext from './chap07/HookContext';
 import MyThemeProvider from './chap07/ MyThemeProvider';
 import HookThemeButton from './chap07/HookThemeButton';
+import { RecoilRoot } from 'recoil';
+import RecoilCounter from './chap07/RecoilCounter';
+import RecoilTodo from './chap07/RecoilTodo';
+import RecoilTodoUp from './chap07/RecoilTodoUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -192,6 +196,15 @@ root.render(
       <MyThemeProvider>
         <HookThemeButton />
       </MyThemeProvider>
+      <RecoilRoot>
+        <RecoilCounter />
+      </RecoilRoot>
+      <RecoilRoot>
+        <RecoilTodo />
+      </RecoilRoot>
+      <RecoilRoot>
+        <RecoilTodoUp />
+      </RecoilRoot>
   </>
 );
 
